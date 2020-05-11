@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="pomodoro.css" rel="stylesheet" type="text/css">
+        <title>Pomodoro Clock for The Odin Project</title>
+    </head>
+    <body>
+        <div id="settingBox">
+            <ul>
+                <li>
+                    <label for="pomodoroLength">Pomodoro Length:</label>
+                    <input type="number" name="pomodoroLength" min="10" max="45" id="pomodoroLength" value="25">
+                </li>
+                <li>
+                    <label for="pomodoroSet">Pomodoro Set:</label>
+                    <input type="number" name="pomodoroSet" min="1" max="10" id="pomodoroSet" value="4">
+                </li>
+                <li>
+                    <label for="shortBreak">Short Break:</label>
+                    <input type="number" name="shortBreak" min="5" max="15" id="shortBreak" value="5">
+                </li>
+                <li>
+                    <label for="longBreak">Long Break:</label>
+                    <input type="number" name="longBreak" min="15" max="60" id="longBreak" value="30">
+                </li>
+            </ul>
+            <button id="default">Reset Defaults</button>
+        </div>
+        <div id="task"></div>
+        <div id="timerBox">
+            <p id="clock"></p>
+            <ul id="indicators"></ul>
+            <ul id="buttonList">
+                <li><button id="start">Start</button></li>
+                <li><button id="pause">Pause</button></li>
+                <li><button id="reset">Reset</button></li>
+            </ul>    
+        </div>
+        <script src="pomodoro.js"></script>
+    </body>
+</html>

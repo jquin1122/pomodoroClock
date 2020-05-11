@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #073861;
+}
+
+#settingBox {
+    padding: 10px;
+    background-image: linear-gradient(rgb(73, 73, 73), rgb(12, 12, 12));
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#settingBox button {
+    position: relative;
+    margin: 30px auto 0 auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(rgb(25, 51, 105), rgb(12, 12, 12));
+    color: white;
+    border: none;
+}
+
+#settingBox input {
+    border: none;
+    background-image: linear-gradient(rgb(34, 33, 33), rgb(12, 12, 12));
+    color: #ffffff;
+    font-size: 0.5em;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 2em;
+}
+
+input {
+    width: 50px;
+    border-radius: 0;
+}
+
+#timerBox {
+    width: 500px;
+    background-image: linear-gradient(rgb(73, 73, 73), rgb(12, 12, 12));
+    margin: 0 auto;
+    font-size: 2em;
+    vertical-align: middle;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#buttonList button{
+    padding: 5px 10px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(rgb(25, 51, 105), rgb(12, 12, 12));
+    border: none;
+    color: white;
+}
+
+#settingBox button:active {
+    background-image: linear-gradient(rgb(6, 20, 49), rgb(12, 12, 12));
+    border: none;
+}
+
+#buttonList button:active {
+    background-image: linear-gradient(rgb(6, 20, 49), rgb(12, 12, 12));
+    border: none;
+}
+
+#clock {
+    text-align: center;
+    font-size: 4em;
+    color: #ffffff;
+    padding-top: 40px;
+    font-family: 'uroob';
+}
+
+#indicators li {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#task {
+    background-image: linear-gradient(rgb(73, 73, 73), rgb(12, 12, 12));
+    margin: 0 auto;
+    vertical-align: middle;
+    font-family: 'uroob';
+    height: 70px;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+}
